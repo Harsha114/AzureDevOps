@@ -92,7 +92,7 @@ sudo chmod 777 -R /opt/tomcat/webapps/
 
 #Clear TOMCAT_HOME/webapps.
 cd /opt/tomcat/webapps
-rm -R 'ls'
+rm -R `ls`
 
 #Add your WAR to TOMCAT_HOME/webapps (for example, /opt/tomcat/webapps/)
 curl -O https://tomcat.apache.org/tomcat-6.0-doc/appdev/sample/sample.war
